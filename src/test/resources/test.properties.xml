@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+<properties>
+    <entry key='ionic.profile'>ionic/ionic.sep.plaintext.json</entry>
+
+    <entry key='jdbc.driver'>org.postgresql.Driver</entry>
+    <entry key='jdbc.url'>jdbc:postgresql://localhost:5432/</entry>
+    <entry key='jdbc.user'>postgres</entry>
+    <entry key='jdbc.password'>password-postgres</entry>
+
+    <entry key='sql.insert.employee'>INSERT INTO employee (firstname, lastname, personalidentifier, salary, country) VALUES (?, ?, ?, ?, ?)</entry>
+    <entry key='sql.insert.employeeionic'>INSERT INTO employeeionic (fid, personalidentifier, salary) VALUES (?, ?, ?)</entry>
+
+    <entry key='sql.select.employee'>SELECT * FROM employee</entry>
+    <entry key='sql.select.employeeionic'>SELECT * FROM employeeionic</entry>
+</properties>

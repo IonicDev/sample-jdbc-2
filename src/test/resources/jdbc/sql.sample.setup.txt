@@ -1,0 +1,12 @@
+CREATE TABLE employee(
+id serial PRIMARY KEY,
+firstname VARCHAR (24),
+lastname VARCHAR (24),
+personalidentifier VARCHAR (9),
+salary INTEGER,
+country VARCHAR (3));
+
+CREATE TABLE employeeionic(
+fid INTEGER REFERENCES employee(id),
+personalidentifier VARCHAR(51),
+salary VARCHAR(44));
